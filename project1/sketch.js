@@ -114,7 +114,5 @@ function draw() {
 }
 
 function keyPressed() {
-  if (key === 's') {
-    saveGif('mySketch', 6);
-  }
+  if (key === 's') saveCanvas('my_picture', 'png');
 }
